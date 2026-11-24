@@ -1,0 +1,42 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "manifest_version": 3,
+  "name": "AutoHunt For PokeIdle",
+  "version": "1.0.24",
+  "description": "Analisa hunts do PokeIdle e inclui Auto TP para selecionar automaticamente uma hunt.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://pokeidle.io/*"],
+      "js": [
+        "src/boot.js",
+        "src/jogo-bundle.js",
+        "src/hook.js",
+        "src/game.js",
+        "src/ritmo.js",
+        "src/engine.js",
+        "src/geo.js",
+        "src/auto-tp.js",
+        "src/ui.js",
+        "src/prey.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://pokeidle.io/*"],
+      "css": ["src/ui.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://pokeidle.io/*"],
+      "js": ["src/wishlist-ponte.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
