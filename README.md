@@ -1,65 +1,31 @@
-# ⚡ AutoHunt — PokeIdle
+# AutoHunt For PokeIdle
 
-<p align="center">
-  <strong>Automatize sua rotina de caça no PokeIdle.</strong><br>
-  Um projeto independente desenvolvido e mantido por <strong>Shaz</strong>.
-</p>
+Ferramenta independente para **PokeIdle**, dedicada à análise de hunts e à automação de teleporte (Auto TP).
 
-<p align="center">
-  <a href="https://pokeidle.io/">PokeIdle</a>
-  ·
-  <a href="https://github.com/LucasY4N/AutoHunt">Repositório</a>
-</p>
+## Recursos do projeto
 
----
+- Painel para análise e comparação de hunts.
+- Métricas de XP/h e ouro/h.
+- Integração com a interface do PokeIdle.
+- Auto TP para selecionar uma hunt de acordo com os critérios disponíveis.
+- Integração com a janela Prey.
+- Preferências salvas localmente no navegador.
 
-## 📖 Sobre o projeto
+## Instalação
 
-O **AutoHunt** é uma ferramenta criada para auxiliar e automatizar tarefas relacionadas à caça (*Hunt*) no **PokeIdle**.
+1. Baixe os arquivos do projeto e extraia o conteúdo.
+2. Abra `chrome://extensions/` (ou a página de extensões equivalente).
+3. Ative o **Modo do desenvolvedor**.
+4. Clique em **Carregar sem compactação**.
+5. Selecione a pasta que contém o arquivo `manifest.json`.
+6. Abra ou atualize [PokeIdle](https://pokeidle.io/).
 
-A proposta é facilitar a rotina do jogador por meio de uma interface própria para ativar e acompanhar a automação, deixando o uso mais prático.
+## Créditos
 
-> Este repositório é dedicado ao AutoHunt. O projeto **Shaz Tools / Auto Buy** é independente e mantido separadamente.
+O módulo Auto TP exibe **made by: Shaz** na barra de ativação.
 
-## ✨ O que você encontra aqui
+Os demais elementos e funcionalidades existentes foram preservados.
 
-- **Automação de Hunt:** ferramenta voltada à rotina de caça no PokeIdle.
-- **Interface de ativação:** controles para iniciar e utilizar o AutoHunt.
-- **Projeto independente:** código e atualizações organizados neste repositório.
-- **Identidade do projeto:** desenvolvido por Shaz.
+## Aviso
 
-*As funções disponíveis dependem da versão publicada do projeto. Consulte os arquivos e as instruções incluídos na versão que você baixar.*
-
-## 🚀 Como obter
-
-1. Abra a página do repositório: [LucasY4N/AutoHunt](https://github.com/LucasY4N/AutoHunt).
-2. Clique em **Code**.
-3. Selecione **Download ZIP** para baixar os arquivos.
-4. Extraia o conteúdo do ZIP.
-5. Siga as instruções de instalação incluídas nos arquivos do projeto.
-
-Se houver uma nova versão, baixe os arquivos atualizados e siga novamente as instruções correspondentes.
-
-## 🧩 Compatibilidade
-
-O AutoHunt foi desenvolvido para uso com o **PokeIdle**. Alterações no site ou no funcionamento do jogo podem afetar ferramentas de automação; por isso, mantenha-se atento às atualizações deste repositório.
-
-## ⚠️ Aviso
-
-- Projeto independente, sem afiliação oficial com o PokeIdle ou seus desenvolvedores.
-- Use por sua própria responsabilidade e respeite as regras e os termos de uso do jogo.
-- Não compartilhe versões modificadas como se fossem versões oficiais.
-
-## 👨‍💻 Créditos
-
-<p align="center">
-  <strong>Made by: Shaz</strong>
-</p>
-
-Se encontrar algum problema, abra uma **Issue** neste repositório descrevendo o que aconteceu e, se possível, inclua os passos para reproduzir o erro.
-
----
-
-<p align="center">
-  Feito para a comunidade PokeIdle 💙
-</p>
+Projeto independente, sem afiliação oficial com PokeIdle. Use por sua conta e respeite os termos e regras do jogo.
